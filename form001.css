@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Manrope;
+    letter-spacing: 2px;
+}
+body{
+    background-color: rgb(190, 178, 178);
+
+    /* display: grid;
+    place-items: center; */
+}
+h1{
+    margin-top: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 0 0 15px 0;
+}
+h1::before, h1::after{
+    content: '\2022';
+    padding: 0 20px;
+}
+form{
+    border: 2px solid black;
+    width: 500px;
+    padding: 15px;
+    margin: 50px auto;
+}
+textarea{
+    max-width: 95%;
+    width: 95%;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+    outline: none;
+    height: 100px;
+    max-height: 100px;
+    min-width: 40%;
+    background-color: rgb(190, 178, 178);
+}
+input{
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: rgb(190, 178, 178);
+    outline: none;
+
+}
+select{
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: rgb(190, 178, 178);
+    outline: none;
+    color: rgb(143, 143, 143);
+}
+.part1{
+    display: flex;
+    justify-content: space-between;
+}
+#name, input[type="email"]{
+    width: 300px;
+}
+#number,#subject{
+    width: 95%;
+}
+hr{
+    width: 20%;
+    margin: auto;
+    color: black;
+    margin-bottom: 25px;
+}
+input::placeholder{
+    color: rgb(143, 143, 143);
+}
+.part3{
+    width: 101%;
+}
+.part2{
+    width: 99%;
+}
+input[type="submit"]{
+    border: 2px solid black;
+    padding: 15px;
+    font-weight: bold;
+    letter-spacing: normal;
+    font-family: cursive, Helvetica, sans-serif;
+    
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    transition: all 0.4s ease-in-out 0s;
+    background-color: rgba(0, 230, 0, 0.705);
+}
+input[type="reset"]{
+    border: 2px solid black;
+    padding: 15px;
+    font-weight: bold;
+    letter-spacing: normal;
+    font-family: cursive, Helvetica, sans-serif;
+    
+}
+input[type="reset"]:hover{
+    cursor: pointer;
+    transition: all 0.4s ease-in-out 0s;
+    background-color: rgba(230, 0, 0, 0.705)
+}
